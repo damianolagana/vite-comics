@@ -7,25 +7,25 @@ export default {
         return {
             Icons: [
                 {
-                    imgIcon: "../assets/img/buy-comics-digital-comics.png",
+                    imgIcon: "/img/buy-comics-digital-comics.png",
                     title: "DIGITAL COMICS"
                 },
-                // {
-                //     imgIcon: "my-vue-app\src\assets\img\buy-comics-merchandise.png",
-                //     title: "DC MERCHANDISE"
-                // },
-                // {
-                //     imgIcon: "my-vue-app\src\assets\img\buy-comics-subscriptions.png",
-                //     title: "SUBSCRIPTION"
-                // },
-                // {
-                //     imgIcon: "my-vue-app\src\assets\img\buy-comics-shop-locator.png",
-                //     title: "COMIC SHOP LOCATOR"
-                // },
-                // {
-                //     imgIcon: "my-vue-app\src\assets\img\buy-dc-power-visa.png",
-                //     title: "DC POWER VISA"
-                // },
+                {
+                    imgIcon: "/img/buy-comics-merchandise.png",
+                    title: "DC MERCHANDISE"
+                },
+                {
+                    imgIcon: "/img/buy-comics-subscriptions.png",
+                    title: "SUBSCRIPTION"
+                },
+                {
+                    imgIcon: "/img/buy-comics-shop-locator.png",
+                    title: "COMIC SHOP LOCATOR"
+                },
+                {
+                    imgIcon: "/img/buy-dc-power-visa.svg",
+                    title: "DC POWER VISA"
+                },
             ]
         }
     },

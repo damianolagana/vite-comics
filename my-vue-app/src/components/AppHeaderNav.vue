@@ -31,7 +31,7 @@ export default {
         <nav class="navbar bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/img/dc-logo.png" alt="Bootstrap" width="30" height="24">
+                    <img src="/img/dc-logo.png" alt="Bootstrap" width="30" height="24">
                 </a>
                 <div class="d-flex justify-content-sm-between">
                     <a v-for="link in links" href="">{{ link }}</a>
