@@ -1,4 +1,28 @@
 <script>
+export default {
+    components: {
+
+    },
+    data() {
+        return {
+            links: [
+                "CHARACTERS",
+                "COMICS",
+                "MOVIES",
+                "TV",
+                "GAMES",
+                "COLLECTIBLES",
+                "VIDEOS",
+                "FANS",
+                "NEWS",
+                "SHOP",
+            ]
+
+        }
+    }
+}
+
+
 
 </script>
 
@@ -10,16 +34,7 @@
                     <img src="../assets/img/dc-logo.png" alt="Bootstrap" width="30" height="24">
                 </a>
                 <div class="d-flex justify-content-sm-between">
-                    <div>Characters</div>
-                    <div>Comics</div>
-                    <div>Movies</div>
-                    <div>TV</div>
-                    <div>Games</div>
-                    <div>Collectibles</div>
-                    <div>Videos</div>
-                    <div>Fans</div>
-                    <div>News</div>
-                    <div>Shop</div>
+                    <a v-for="link in links" href="">{{ link }}</a>
                 </div>
             </div>
 
@@ -28,6 +43,19 @@
 </template>
 
 <style scoped>
+header {
+    height: 120px;
+}
+
+nav {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 a>img {
     width: 60px;
     height: 60px;
