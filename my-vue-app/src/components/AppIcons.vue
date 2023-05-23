@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <div class="container d-flex">
         <div v-for="icon in Icons">
             <img :src="icon.imgIcon" alt="">
             <h3>{{ icon.title }}</h3>
